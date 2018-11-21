@@ -1,4 +1,4 @@
-Utilize o programa criado pelo professor para baixar as páginas principais dos seguintes sites:
+1. Utilize o programa criado pelo professor para baixar as páginas principais dos seguintes sites:
 (a) www.google.com
 
 (b) www.google.com.br
@@ -7,4 +7,4 @@ Utilize o programa criado pelo professor para baixar as páginas principais dos 
 
 (d) fga.unb.br
 
-Comente os resultados obtidos para cada página, em termos das respostas HTTP e HTML obtidas.
+2. Comente os resultados obtidos para cada página, em termos das respostas HTTP e HTML obtidas.
