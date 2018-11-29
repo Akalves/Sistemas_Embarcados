@@ -1,0 +1,42 @@
+1. O que são sistemas Embarcados?
+
+Um sistema embarcado é uma combinação de hardware e software a qual possui uma função dedicada e específica dentro de um sistema mecânico 
+ou elétrico maior. Os sistemas embarcados controlam muitos dispositivos comuns do cotidiano como eletrodomésticos e automóveis.
+
+2. O que são sistemas microprocessados?
+
+Sistemas microprocessados são sistemas que utilizam microprocessadores. Sistemas microprocessados usando chips externos para memória 
+e circuitos de interface periféricos são comuns, especialmente em sistemas mais complexos. Em qualquer dos casos, o(s) processador(es) 
+utilizado(s) pode(m) ser de tipos que vão desde o propósito geral (computadores de uso pessoal e smartphones, por exemplo) até os 
+especializados em determinada classe de cálculos.
+
+3. Apresente aplicações de sistemas embarcados:
+
+a) Para a industria automotiva;
+
+Um automóvel possui dezenas de sistemas embarcados que são responsáveis em controlar partes como, por exemplo, o Air Bag, sistema de freios
+ABS, sensores de chuva, monitoramento da pressão dos pneus e o nível de gasolina.
+
+b) Para eletrodomesticos;
+
+->Máquina de lavar: há um sistema embarcado que coleta dados como tipo de roupa a ser lavado e duração da lavagem e processa esses dados 
+de modo a controlar a água e produto de limpeza injetados e a velocidade do eixo central e da centrífuga.
+->Microondas: há um sistema embarcado que coleta dados como duração do tempo, tipo de comida ou potência do aquecimento e processa os dados
+de modo a controlar o dispositivo capaz de geras as microondas.
+
+c) Para automação industrial;
+
+Um exemplo de automação industrial é o centro de distribuição de produtos do site de compras Amazon, a qual é capaz de gerenciar diversos
+produtos por meio de dezenas de pequenos robôs que fazem transporte constante dos produtos, organizando-os da forma que são programados.
+Para isso, deve ser feito um sistema embarcado capaz de monitorar uma grande quantidade de robôs e controlá-los em tempo real.
+
+4. Cite arquiteturas possíveis e as diferenças entre elas.
+
+->Arduino: Utiliza o microcontrolador Atmel AVR numa placa com alguns adicionais como regulador de tensão, oscilador de 16 MHz e memória
+flash embutidos. É bastante utilizado para prototipagem de projetos, mas evita-se colocá-lo no produto final. 
+->Raspberry Pi: Possui um Hardware melhor que o Arduino, já que possui funções como saída de vídeo e um processador de 700 MHz. 
+
+5. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system on chip?
+
+O Raspberry Pi será utilizado por causa de sua arquitetura do hardware. O processador ARM possui capacidade de embutir um sistema operacional
+como o Linux, além de proporcionar uma placa de vídeo integrada, a qual pode proporcionar maior facilidade na implementação do interface.
