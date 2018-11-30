@@ -1,13 +1,19 @@
 1. Apresente as características e utilidades das seguintes funções:
-
-(a) popen()
-
-(b) pclose()
-
-(c) fileno()
+	(a) popen()
+	
+	Pipe Stream de um processo para outro.
+	• Cria um PIPE unidirecional;
+	• Faz um Fork;
+	• Chama o Shell para abrir um outro processo no lugar do filho;
+	
+	(b) pclose()
+	
+	Fecha o Pipestream de um processo para outro.
+	
+	(c) fileno()
+	
+	Retorna o número do descritor do arquivo.
 
 2. Quais são as vantagens e desvantagens em utilizar:
-
-(a) popen()?
-
-(b) exec()?
+	(a) popen()? Pipe Stream de um processo para outro.
+	(b) exec()? exec() substitui o programa do processo INTEIRO pelo comando do argumento.
